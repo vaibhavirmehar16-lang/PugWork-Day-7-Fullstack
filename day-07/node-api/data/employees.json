@@ -1,0 +1,72 @@
+[
+  {
+    "firstName": "Aarav",
+    "lastName": "Sharma",
+    "email": "aarav.sharma@pugwork.local",
+    "role": "Frontend Engineer",
+    "department": "Engineering",
+    "status": "Active",
+    "salary": 920000,
+    "location": "Jabalpur",
+    "joinDate": "2024-07-15",
+    "id": "7f3f97ce-c4e2-46fd-a0d3-899478735d37",
+    "createdAt": "2026-10-11T17:18:34.754Z",
+    "updatedAt": "2026-10-11T17:18:34.754Z"
+  },
+  {
+    "firstName": "Ananya",
+    "lastName": "Mehta",
+    "email": "ananya.mehta@pugwork.local",
+    "role": "Product Designer",
+    "department": "Design",
+    "status": "Active",
+    "salary": 840000,
+    "location": "Pune",
+    "joinDate": "2023-11-06",
+    "id": "6c6049e5-40cb-4d9f-94bc-a0415e1409a0",
+    "createdAt": "2026-10-11T17:18:34.754Z",
+    "updatedAt": "2026-10-11T17:18:34.754Z"
+  },
+  {
+    "firstName": "Kabir",
+    "lastName": "Verma",
+    "email": "kabir.verma@pugwork.local",
+    "role": "Product Manager",
+    "department": "Product",
+    "status": "On Leave",
+    "salary": 1180000,
+    "location": "Bengaluru",
+    "joinDate": "2022-03-21",
+    "id": "245f839b-ddc2-44eb-9fad-aca279cfe2ad",
+    "createdAt": "2026-10-11T17:18:34.754Z",
+    "updatedAt": "2026-10-11T17:18:34.754Z"
+  },
+  {
+    "firstName": "Ishita",
+    "lastName": "Rao",
+    "email": "ishita.rao@pugwork.local",
+    "role": "People Operations Specialist",
+    "department": "HR",
+    "status": "Active",
+    "salary": 720000,
+    "location": "Mumbai",
+    "joinDate": "2025-01-08",
+    "id": "71bd0c07-f4a6-4b16-9a21-54edee542f4e",
+    "createdAt": "2026-10-11T17:18:34.754Z",
+    "updatedAt": "2026-10-11T17:18:34.754Z"
+  },
+  {
+    "firstName": "Dev",
+    "lastName": "Patel",
+    "email": "dev.patel@pugwork.local",
+    "role": "Data Analyst",
+    "department": "Finance",
+    "status": "Inactive",
+    "salary": 780000,
+    "location": "Nagpur",
+    "joinDate": "2021-09-13",
+    "id": "21daea93-9858-4016-9f25-ff52dd802d66",
+    "createdAt": "2026-10-11T17:18:34.754Z",
+    "updatedAt": "2026-10-11T17:18:34.754Z"
+  }
+]
