@@ -18,7 +18,7 @@ export class EmployeeController {
 
   static async getById(req: Request, res: Response, next: NextFunction) {
     try {
-      const id = Array.isArray(req.params.id) ? req.params.id[0] : req.params.id;
+      const id = String(req.params.id);
       const employee = await employeeService.getById(id);
       if (!employee) {
         return ApiResponse.error(res, `Employee with ID ${id} not found`, 404);
@@ -40,7 +40,7 @@ export class EmployeeController {
 
   static async update(req: Request, res: Response, next: NextFunction) {
     try {
-      const id = Array.isArray(req.params.id) ? req.params.id[0] : req.params.id;
+      const id = String(req.params.id);
       const updated = await employeeService.update(id, req.body);
       if (!updated) {
         return ApiResponse.error(res, `Employee with ID ${id} not found`, 404);
@@ -53,7 +53,7 @@ export class EmployeeController {
 
   static async delete(req: Request, res: Response, next: NextFunction) {
     try {
-      const id = Array.isArray(req.params.id) ? req.params.id[0] : req.params.id;
+      const id = String(req.params.id);
       const deleted = await employeeService.delete(id);
       if (!deleted) {
         return ApiResponse.error(res, `Employee with ID ${id} not found`, 404);
